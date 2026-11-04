@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\TrafficSimulationAdjuster\bin\Debug\netstandard2.1\TrafficSimulationAdjuster.deps.json
+C:\Users\ASUS\Desktop\TrafficSimulationAdjuster\bin\Debug\netstandard2.1\TrafficSimulationAdjuster.dll
+C:\Users\ASUS\Desktop\TrafficSimulationAdjuster\bin\Debug\netstandard2.1\TrafficSimulationAdjuster.pdb
+C:\Users\ASUS\Desktop\TrafficSimulationAdjuster\obj\Debug\netstandard2.1\TrafficSimulationAdjuster.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\TrafficSimulationAdjuster\obj\Debug\netstandard2.1\TrafficSimulationAdjuster.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\TrafficSimulationAdjuster\obj\Debug\netstandard2.1\TrafficSimulationAdjuster.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\TrafficSimulationAdjuster\obj\Debug\netstandard2.1\TrafficSimulationAdjuster.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\TrafficSimulationAdjuster\obj\Debug\netstandard2.1\TrafficSimulationAdjuster.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\TrafficSimulationAdjuster\obj\Debug\netstandard2.1\TrafficSimulationAdjuster.dll
+C:\Users\ASUS\Desktop\TrafficSimulationAdjuster\obj\Debug\netstandard2.1\TrafficSimulationAdjuster.pdb

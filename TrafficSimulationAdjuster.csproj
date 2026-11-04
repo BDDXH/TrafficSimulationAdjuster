@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+<TargetFramework>netstandard2.1</TargetFramework>        <Configurations>Debug;Release</Configurations>
+        <LangVersion>default</LangVersion>
+        <Nullable>enable</Nullable>
+
+        <!-- 确保这是你游戏正确的安装路径 -->
+        <CustomManagedPath>C:\Program Files (x86)\Steam\steamapps\common\Cities Skylines II\Cities2_Data\Managed</CustomManagedPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="Game">
+            <HintPath>$(CustomManagedPath)\Game.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Colossal.Core">
+            <HintPath>$(CustomManagedPath)\Colossal.Core.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Colossal.Logging">
+            <HintPath>$(CustomManagedPath)\Colossal.Logging.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Colossal.Localization">
+            <HintPath>$(CustomManagedPath)\Colossal.Localization.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Colossal.IO.AssetDatabase">
+            <HintPath>$(CustomManagedPath)\Colossal.IO.AssetDatabase.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>$(CustomManagedPath)\UnityEngine.CoreModule.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Unity.Entities">
+            <HintPath>$(CustomManagedPath)\Unity.Entities.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Unity.Mathematics">
+            <HintPath>$(CustomManagedPath)\Unity.Mathematics.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Unity.Burst">
+            <HintPath>$(CustomManagedPath)\Unity.Burst.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Unity.Collections">
+            <HintPath>$(CustomManagedPath)\Unity.Collections.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Lib.Harmony" Version="2.4.3" />
+    </ItemGroup>
+</Project>
